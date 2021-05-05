@@ -1,12 +1,12 @@
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
 /* Angular material */
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AngularMaterialModule } from './angular-material.module';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { MaterialModule } from './material.module';
+
+
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularMaterialModule,
+    MaterialModule,
     BrowserAnimationsModule
   ],
   providers: [],
