@@ -102,7 +102,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatGridListModule,
     MatRadioModule,
     MatDatepickerModule,
-    MatTooltipModule
+    MatTooltipModule,
   ],
 })
 
